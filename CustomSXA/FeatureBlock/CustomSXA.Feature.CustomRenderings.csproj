@@ -143,171 +143,227 @@
     </Reference>
     <Reference Include="Sitecore.Buckets, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Buckets.10.3.0\lib\net48\Sitecore.Buckets.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Buckets.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Buckets.Client.10.3.0\lib\net48\Sitecore.Buckets.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Client, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Client.10.3.0\lib\net48\Sitecore.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Client.LicenseOptions, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Client.LicenseOptions.10.3.0\lib\net48\Sitecore.Client.LicenseOptions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ContentSearch.10.3.0\lib\net48\Sitecore.ContentSearch.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ContentSearch.Client.10.3.0\lib\net48\Sitecore.ContentSearch.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.ContentExtraction, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ContentSearch.ContentExtraction.10.3.0\lib\net48\Sitecore.ContentSearch.ContentExtraction.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Data, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ContentSearch.Data.10.3.0\lib\net48\Sitecore.ContentSearch.Data.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Linq, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ContentSearch.Linq.10.3.0\lib\net48\Sitecore.ContentSearch.Linq.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Data.ResourceItems.Abstractions, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Data.ResourceItems.Abstractions.10.3.0\lib\netstandard2.0\Sitecore.Data.ResourceItems.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Data.ResourceItems.ProtobufNet, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Data.ResourceItems.ProtobufNet.10.3.0\lib\netstandard2.0\Sitecore.Data.ResourceItems.ProtobufNet.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ExperienceEditor.10.3.0\lib\net48\Sitecore.ExperienceEditor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ExperienceEditor.Speak.10.3.0\lib\net48\Sitecore.ExperienceEditor.Speak.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ExperienceEditor.Speak.Ribbon, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ExperienceEditor.Speak.Ribbon.10.3.0\lib\net48\Sitecore.ExperienceEditor.Speak.Ribbon.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Conditions, Version=6.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Framework.Conditions.6.0.0\lib\netstandard2.0\Sitecore.Framework.Conditions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Data.Blobs, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Framework.Data.Blobs.3.0.1\lib\netstandard2.0\Sitecore.Framework.Data.Blobs.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Framework.Data.Blobs.Abstractions, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Framework.Data.Blobs.Abstractions.3.0.1\lib\netstandard2.0\Sitecore.Framework.Data.Blobs.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ItemWebApi, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.ItemWebApi.10.3.0\lib\net48\Sitecore.ItemWebApi.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Kernel.10.3.0\lib\net48\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Kernel.Portable, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Kernel.Portable.10.3.0\lib\netstandard2.0\Sitecore.Kernel.Portable.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Logging, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Logging.10.3.0\lib\net48\Sitecore.Logging.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Logging.Client, Version=15.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Logging.Client.10.3.0\lib\net48\Sitecore.Logging.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Mvc.10.3.0\lib\net48\Sitecore.Mvc.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc.ExperienceEditor, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Mvc.ExperienceEditor.10.3.0\lib\net48\Sitecore.Mvc.ExperienceEditor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Nexus.Consumption, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9de34fe2109de40c, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Nexus.Consumption.1.5.0\lib\netstandard2.0\Sitecore.Nexus.Consumption.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Nexus.Licensing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=9de34fe2109de40c, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Nexus.Licensing.2.0.6\lib\netstandard2.0\Sitecore.Nexus.Licensing.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Speak.Applications, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Speak.Applications.10.3.0\lib\net48\Sitecore.Speak.Applications.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Speak.Client, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Speak.Client.10.3.0\lib\net48\Sitecore.Speak.Client.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Speak.ItemWebApi, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Speak.ItemWebApi.10.3.0\lib\net48\Sitecore.Speak.ItemWebApi.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Speak.Web, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Speak.Web.10.3.0\lib\net48\Sitecore.Speak.Web.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Web, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.Web.10.3.0\lib\net48\Sitecore.Web.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Abstractions, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Abstractions.10.3.0\lib\net48\Sitecore.XA.Foundation.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Caching, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Caching.10.3.0\lib\net48\Sitecore.XA.Foundation.Caching.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Common, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Common.10.3.0\lib\net48\Sitecore.XA.Foundation.Common.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.DynamicPlaceholders, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.DynamicPlaceholders.10.3.0\lib\net48\Sitecore.XA.Foundation.DynamicPlaceholders.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Editing, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Editing.10.3.0\lib\net48\Sitecore.XA.Foundation.Editing.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Geospatial, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Geospatial.10.3.0\lib\net48\Sitecore.XA.Foundation.Geospatial.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Grid, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Grid.10.3.0\lib\net48\Sitecore.XA.Foundation.Grid.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Horizon, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Horizon.10.3.0\lib\net48\Sitecore.XA.Foundation.Horizon.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.IOC, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.IOC.10.3.0\lib\net48\Sitecore.XA.Foundation.IOC.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.LocalDatasources, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.LocalDatasources.10.3.0\lib\net48\Sitecore.XA.Foundation.LocalDatasources.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.MarkupDecorator, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.MarkupDecorator.10.3.0\lib\net48\Sitecore.XA.Foundation.MarkupDecorator.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.MediaRequestHandler, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.MediaRequestHandler.10.3.0\lib\net48\Sitecore.XA.Foundation.MediaRequestHandler.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Multisite, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Multisite.10.3.0\lib\net48\Sitecore.XA.Foundation.Multisite.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Mvc, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Mvc.10.3.0\lib\net48\Sitecore.XA.Foundation.Mvc.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.PlaceholderSettings, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.PlaceholderSettings.10.3.0\lib\net48\Sitecore.XA.Foundation.PlaceholderSettings.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Presentation, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Presentation.10.3.0\lib\net48\Sitecore.XA.Foundation.Presentation.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.RenderingVariants, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.RenderingVariants.10.3.0\lib\net48\Sitecore.XA.Foundation.RenderingVariants.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Scaffolding, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Scaffolding.10.3.0\lib\net48\Sitecore.XA.Foundation.Scaffolding.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Scriban, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Scriban.10.3.0\lib\net48\Sitecore.XA.Foundation.Scriban.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Search, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Search.10.3.0\lib\net48\Sitecore.XA.Foundation.Search.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.SitecoreExtensions, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.SitecoreExtensions.10.3.0\lib\net48\Sitecore.XA.Foundation.SitecoreExtensions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.StandardValues, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.StandardValues.10.3.0\lib\net48\Sitecore.XA.Foundation.StandardValues.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Theming, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Theming.10.3.0\lib\net48\Sitecore.XA.Foundation.Theming.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.TokenResolution, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.TokenResolution.10.3.0\lib\net48\Sitecore.XA.Foundation.TokenResolution.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.XA.Foundation.Variants.Abstractions, Version=11.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Sitecore.XA.Foundation.Variants.Abstractions.10.3.0\lib\net48\Sitecore.XA.Foundation.Variants.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Spatial4n.Core, Version=0.3.0.0, Culture=neutral, PublicKeyToken=9f9456e1ca16d45e, processorArchitecture=MSIL">
       <HintPath>packages\Spatial4n.Core.0.3\lib\net40\Spatial4n.Core.dll</HintPath>
@@ -431,7 +487,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
+      <Private>False</Private>
       <HintPath>packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
@@ -501,6 +557,22 @@
     <Content Include="App_Config\Include\Feature\CustomSXA.Feature.CustomRenderings.config" />
     <None Include="Global.asax" />
     <None Include="Web.config" />
+    <Content Include="styles\bootstrap.css" />
+    <Content Include="styles\color.css" />
+    <Content Include="styles\color2.css" />
+    <Content Include="styles\color3.css" />
+    <Content Include="styles\color4.css" />
+    <Content Include="styles\color5.css" />
+    <Content Include="styles\color6.css" />
+    <Content Include="styles\flaticon.css" />
+    <Content Include="styles\font-awesome.css" />
+    <Content Include="styles\font.css" />
+    <Content Include="styles\ihover.css" />
+    <Content Include="styles\jquery-ui.css" />
+    <Content Include="styles\jquery.bxslider.css" />
+    <Content Include="styles\main.css" />
+    <Content Include="styles\prettyPhoto.css" />
+    <Content Include="styles\style.css" />
     <Content Include="Views\FeatureList\Feature Block List.cshtml" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
