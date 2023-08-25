@@ -10,8 +10,8 @@ namespace CustomSXA.Feature.CustomRenderings.App_Start
     {
         public void Configure(IServiceCollection serviceCollection)
         {
-            serviceCollection.AddTransient<IFeatureListRepository, FeatureListRepository>();
-            serviceCollection.AddTransient<FeatureListController>();
+            serviceCollection.AddTransient<IGeneralListRepository, GeneralListRepository>();
+            serviceCollection.AddTransient<GeneralListController>();
 
             serviceCollection.AddTransient<IImageRepository, BannerRepository>();
             serviceCollection.AddTransient<BannerController>();

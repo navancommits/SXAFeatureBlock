@@ -1,64 +1,41 @@
-﻿@using Sitecore.Mvc
-@using Sitecore.Data.Items
-@using Sitecore.XA.Foundation.MarkupDecorator.Extensions
-@using Sitecore.XA.Foundation.RenderingVariants.Extensions
-@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
-@using Sitecore.XA.Foundation.Variants.Abstractions.Fields
+﻿﻿@using Sitecore.Mvc;
+@using Sitecore.Data.Items;
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions;
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions;
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields;
 
 @model Sitecore.XA.Foundation.RenderingVariants.Models.VariantListsRenderingModel
 
-<link rel="stylesheet" type="text/css" href="styles/main.css" />
-
-
-
-        <div class="eco_service_wraper padder_top_100 padder_bottom_100">
-
-        <div class="container">
-            <div class="eco_wraper text-center">
-                <h2 class="eco_heading text-uppercase">@Html.Sxa().RenderHeading(Model.HeadingTag, Model.DataSourceItem, "Title", Model.GetRenderingWebEditingParams())</h2>
-                <div class="eco_border padder_bottom_50"></div>
-            </div>
-
-            @if (Model.Rendering.DataSourceItem == null)
+<div class="info-tiles">
+    <div class="info-tiles__content">
+        <h2 class="info-tiles__title">@Html.Sitecore().Field("Title")</h2>
+        
+        @if (Model.Rendering.DataSourceItem == null)
+        {
+            @Model.MessageIsEmpty
+        }
+        @if (!Model.Items.Any() && Model.Rendering.DataSourceItem != null)
+        {
+            using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "Feature Empty", Model.IsControlEditable))
             {
-
                 @Model.MessageIsEmpty
             }
+        }
 
-            @if (!Model.Items.Any() && Model.Rendering.DataSourceItem != null)
+        <div class="info-tiles__tiles">
+            @foreach (Item item in @Model.Items)
             {
-                using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "File Empty", Model.IsControlEditable))
-                {
-                    @Model.MessageIsEmpty
-                }
-            }
-
-
-            <div class="garden_featurediv text-center">
-                <div class="row">
-                    @foreach (Item item in @Model.Items)
-                    {
-                        <div class="col-lg-3 col-sm-6 col-12">
-                            <div class="eco_home_service" data-scrollreveal="enter from the left over 1s" data-sr-init="true" data-sr-complete="true">
-                                @using (Html.Sxa().BeginEditFrame(item.ID.ToString(), "Feature Block", Model.IsControlEditable))
-                                {
-                                    foreach (BaseVariantField variantField in Model.VariantFields)
-                                    {
-                                        @Html.RenderingVariants().RenderVariant(variantField, item, Model.RenderingWebEditingParams, Model)
-                                        <!--div class="eco_service_icon">
-                                            <a href="#" class="eco_transition"> <i class="glyph-icon flaticon-people-2"></i> </a>
-                                        </!--div>
-                                        <div class="eco_service_text">
-                                            <h5 class="text-uppercase"></h5>
-                                            <div class="eco_service_data"></div>
-                                        </div-->
-                                    }
-                                }
-                            </div>
-                        </div>
-                    }
+                <div class="info-tiles__tile">
+                        @using (Html.Sxa().BeginEditFrame(item.ID.ToString(), "Feature Block", Model.IsControlEditable))
+                        {
+                            foreach (BaseVariantField variantField in Model.VariantFields)
+                            {
+                                @Html.RenderingVariants().RenderVariant(variantField, item, Model.RenderingWebEditingParams, Model)
+                            }
+                        }
                 </div>
-            </div>
+            }
         </div>
     </div>
-     
+</div>

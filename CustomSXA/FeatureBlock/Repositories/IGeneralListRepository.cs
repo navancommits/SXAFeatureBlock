@@ -4,7 +4,7 @@ using Sitecore.XA.Foundation.RenderingVariants.Lists.Pagination;
 
 namespace CustomSXA.Feature.CustomRenderings.Repositories
 {
-    public interface IFeatureListRepository :
+    public interface IGeneralListRepository :
     IModelRepository,
     IControllerRepository,
     IAbstractRepository<IRenderingModelBase>

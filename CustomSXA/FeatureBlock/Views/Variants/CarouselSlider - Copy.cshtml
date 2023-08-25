@@ -1,0 +1,54 @@
+﻿﻿@using Sitecore.Mvc;
+@using Sitecore.Data.Items;
+@using Sitecore.XA.Foundation.MarkupDecorator.Extensions;
+@using Sitecore.XA.Foundation.RenderingVariants.Extensions;
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions;
+@using Sitecore.XA.Foundation.Variants.Abstractions.Fields;
+
+@model Sitecore.XA.Foundation.RenderingVariants.Models.VariantListsRenderingModel
+
+<div class="promo-slider">
+
+    <h2 class="promo-slider__title">@Html.Sitecore().Field("Title")</h2>
+
+    @if (Model.Rendering.DataSourceItem == null)
+    {
+        @Model.MessageIsEmpty
+    }
+    @if (!Model.Items.Any() && Model.Rendering.DataSourceItem != null)
+    {
+        using (Html.Sxa().BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "Carousel Empty", Model.IsControlEditable))
+        {
+            @Model.MessageIsEmpty
+        }
+    }
+
+    <div class="splide promo-slider__carousel">
+        <div class="splide__track">
+
+            <ul class="splide__list">
+                @foreach (Item item in @Model.Items)
+                {
+                    <li class="splide__slide">
+                        @using (Html.Sxa().BeginEditFrame(item.ID.ToString(), "Carousel Slider", Model.IsControlEditable))
+                        {
+                            foreach (BaseVariantField variantField in Model.VariantFields)
+                            {
+                                @Html.RenderingVariants().RenderVariant(variantField, item, Model.RenderingWebEditingParams, Model)
+                            }
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+
+
+        <div class="splide__blur"></div>
+
+        <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev">Prev</button>
+            <button class="splide__arrow splide__arrow--next">Next</button>
+        </div>
+    </div>
+
+</div>

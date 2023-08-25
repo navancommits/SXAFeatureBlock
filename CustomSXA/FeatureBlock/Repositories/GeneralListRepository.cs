@@ -9,9 +9,9 @@ using System.Linq;
 
 namespace CustomSXA.Feature.CustomRenderings.Repositories
 {
-    public class FeatureListRepository :
+    public class GeneralListRepository :
       ListRepository,
-      IFeatureListRepository,
+      IGeneralListRepository,
       IModelRepository,
       IControllerRepository,
       IAbstractRepository<IRenderingModelBase>

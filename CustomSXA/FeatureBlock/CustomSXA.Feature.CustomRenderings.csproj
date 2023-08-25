@@ -546,7 +546,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RegisterDependencies.cs" />
     <Compile Include="Controllers\BannerController.cs" />
-    <Compile Include="Controllers\FeatureListController.cs" />
+    <Compile Include="Controllers\GeneralListController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -554,15 +554,16 @@
     <Compile Include="Models\FeatureListModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\BannerRepository.cs" />
-    <Compile Include="Repositories\FeatureListRepository.cs" />
-    <Compile Include="Repositories\IFeatureListRepository.cs" />
+    <Compile Include="Repositories\GeneralListRepository.cs" />
+    <Compile Include="Repositories\IGeneralListRepository.cs" />
     <Compile Include="Templates\FeatureItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="App_Config\Include\Feature\CustomSXA.Feature.CustomRenderings.config" />
     <None Include="Global.asax" />
-    <Content Include="Views\Banner\Banner.cshtml" />
+    <Content Include="Views\Variants\CarouselSlider.cshtml" />
+    <Content Include="Views\FeatureList\Feature Block List.cshtml" />
     <None Include="Web.config" />
     <Content Include="styles\bootstrap.css" />
     <Content Include="styles\color.css" />
@@ -580,7 +581,6 @@
     <Content Include="styles\main.css" />
     <Content Include="styles\prettyPhoto.css" />
     <Content Include="styles\style.css" />
-    <Content Include="Views\FeatureList\Feature Block List.cshtml" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -588,7 +588,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Banner\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
